@@ -1,0 +1,146 @@
+2021-09-15 09:17:23 INFO  AppPropsBean:48 - Logs inicializados satisfactoriamente !!
+2021-09-15 09:19:51 INFO  AppPropsBean:48 - Logs inicializados satisfactoriamente !!
+2021-09-15 09:19:51 ERROR PrincipalBean:30 - No se está recibiendo ningun parámetro.
+2021-09-15 20:38:17 INFO  AppPropsBean:48 - Logs inicializados satisfactoriamente !!
+2021-09-15 20:38:17 ERROR PrincipalBean:43 - No se está recibiendo ningun parámetro para procesar.
+2021-09-15 20:38:45 INFO  AppPropsBean:48 - Logs inicializados satisfactoriamente !!
+2021-09-15 20:38:45 ERROR PrincipalBean:43 - No se está recibiendo ningun parámetro para procesar.
+2021-09-15 20:43:18 INFO  AppPropsBean:48 - Logs inicializados satisfactoriamente !!
+2021-09-15 20:43:18 INFO  PrincipalBean:32 - Verificando la operación a ejecutar...
+2021-09-15 20:43:18 INFO  TicketTransferenciaBean:46 - Iniciando transferencia ...
+2021-09-15 20:43:18 INFO  TicketTransferenciaBean:57 - Procesando para los siguientes datos: 
+2021-09-15 20:43:18 INFO  TicketTransferenciaBean:58 - log_agent .......: Integracion SF Dashboard Web
+2021-09-15 20:43:18 INFO  TicketTransferenciaBean:59 - zfolio_dbw_sf ...: 58484529
+2021-09-15 20:43:18 INFO  TicketTransferenciaBean:60 - group: ..........: SOPORTE ACCESO GPON TPE N3
+2021-09-15 20:43:18 INFO  TicketTransferenciaBean:61 - persistent_id: ..: cr:1645437
+2021-09-15 20:43:18 INFO  TicketTransferenciaBean:62 - ref_num: ........: 1222800
+2021-09-15 20:43:18 INFO  TicketTransferenciaBean:64 - Inicializamos la URL: http://desarrollosdm:8080/axis/services/USD_R11_WebService?wsdl
+2021-09-15 20:44:42 INFO  AppPropsBean:48 - Logs inicializados satisfactoriamente !!
+2021-09-15 20:44:42 INFO  PrincipalBean:32 - Verificando la operación a ejecutar...
+2021-09-15 20:44:46 INFO  TicketTransferenciaBean:46 - Iniciando transferencia ...
+2021-09-15 20:44:46 INFO  TicketTransferenciaBean:57 - Procesando para los siguientes datos: 
+2021-09-15 20:44:46 INFO  TicketTransferenciaBean:58 - log_agent .......: Integracion SF Dashboard Web
+2021-09-15 20:44:46 INFO  TicketTransferenciaBean:59 - zfolio_dbw_sf ...: 58484529
+2021-09-15 20:44:46 INFO  TicketTransferenciaBean:60 - group: ..........: SOPORTE ACCESO GPON TPE N3
+2021-09-15 20:44:46 INFO  TicketTransferenciaBean:61 - persistent_id: ..: cr:1645437
+2021-09-15 20:44:46 INFO  TicketTransferenciaBean:62 - ref_num: ........: 1222800
+2021-09-15 20:44:46 INFO  TicketTransferenciaBean:64 - Inicializamos la URL: http://desarrollosdm:8080/axis/services/USD_R11_WebService?wsdl
+2021-09-15 20:45:19 INFO  TicketTransferenciaBean:83 - Realizando conexión a la base de datos...
+2021-09-15 20:45:27 INFO  TicketTransferenciaBean:85 - La conexión a la base de datos es correcta.
+2021-09-15 20:45:29 INFO  TicketTransferenciaBean:91 - Validar la información de log_agent...
+2021-09-15 20:47:03 INFO  AppPropsBean:48 - Logs inicializados satisfactoriamente !!
+2021-09-15 20:47:03 INFO  PrincipalBean:32 - Verificando la operación a ejecutar...
+2021-09-15 20:47:36 INFO  TicketTransferenciaBean:46 - Iniciando transferencia ...
+2021-09-15 20:47:36 INFO  TicketTransferenciaBean:57 - Procesando para los siguientes datos: 
+2021-09-15 20:47:36 INFO  TicketTransferenciaBean:58 - log_agent .......: Integracion SF Dashboard Web
+2021-09-15 20:47:36 INFO  TicketTransferenciaBean:59 - zfolio_dbw_sf ...: 58484529
+2021-09-15 20:47:36 INFO  TicketTransferenciaBean:60 - group: ..........: SOPORTE ACCESO GPON TPE N3
+2021-09-15 20:47:36 INFO  TicketTransferenciaBean:61 - persistent_id: ..: cr:1645437
+2021-09-15 20:47:36 INFO  TicketTransferenciaBean:62 - ref_num: ........: 1222800
+2021-09-15 20:47:36 INFO  TicketTransferenciaBean:64 - Inicializamos la URL: http://desarrollosdm:8080/axis/services/USD_R11_WebService?wsdl
+2021-09-15 20:47:56 INFO  TicketTransferenciaBean:83 - Realizando conexión a la base de datos...
+2021-09-15 20:47:59 INFO  TicketTransferenciaBean:85 - La conexión a la base de datos es correcta.
+2021-09-15 20:47:59 INFO  TicketTransferenciaBean:91 - Validar la información de log_agent...
+2021-09-15 20:48:03 ERROR TicketTransferenciaBean:136 - Se proujo un error al intentar procesar la transferencia
+com.sun.xml.internal.ws.client.ClientTransportException: Error de transporte HTTP: java.net.ConnectException: Connection refused: connect
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:117)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.process(HttpTransportPipe.java:208)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.processRequest(HttpTransportPipe.java:130)
+	at com.sun.xml.internal.ws.transport.DeferredTransportPipe.processRequest(DeferredTransportPipe.java:95)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.client.Stub.process(Stub.java:448)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.doProcess(SEIStub.java:178)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:93)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy31.login(Unknown Source)
+	at mx.com.syntech.totalplay.servicedesk.salesforce.integracion.ticket.transferencia.TicketTransferenciaBean.login(TicketTransferenciaBean.java:185)
+	at mx.com.syntech.totalplay.servicedesk.salesforce.integracion.ticket.transferencia.TicketTransferenciaBean.procesar(TicketTransferenciaBean.java:99)
+	at mx.com.syntech.totalplay.servicedesk.salesforce.integracion.main.PrincipalBean.main(PrincipalBean.java:39)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315)
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:104)
+	... 16 more
+2021-09-15 20:48:03 INFO  TicketTransferenciaBean:149 - Intentando cerrar la conexión a la base de datos...
+2021-09-15 20:48:03 INFO  TicketTransferenciaBean:151 - Se cerro loa conexión a la base de datos satisfactoriamente.
+2021-09-15 20:49:40 INFO  AppPropsBean:48 - Logs inicializados satisfactoriamente !!
+2021-09-15 20:49:40 INFO  PrincipalBean:32 - Verificando la operación a ejecutar...
+2021-09-15 20:49:44 INFO  TicketTransferenciaBean:46 - Iniciando transferencia ...
+2021-09-15 20:49:44 INFO  TicketTransferenciaBean:57 - Procesando para los siguientes datos: 
+2021-09-15 20:49:44 INFO  TicketTransferenciaBean:58 - log_agent .......: Integracion SF Dashboard Web
+2021-09-15 20:49:44 INFO  TicketTransferenciaBean:59 - zfolio_dbw_sf ...: 58484529
+2021-09-15 20:49:44 INFO  TicketTransferenciaBean:60 - group: ..........: SOPORTE ACCESO GPON TPE N3
+2021-09-15 20:49:44 INFO  TicketTransferenciaBean:61 - persistent_id: ..: cr:1645437
+2021-09-15 20:49:44 INFO  TicketTransferenciaBean:62 - ref_num: ........: 1222800
+2021-09-15 20:49:44 INFO  TicketTransferenciaBean:64 - Inicializamos la URL: http://desarrollosdm:8080/axis/services/USD_R11_WebService?wsdl
+2021-09-15 20:50:05 INFO  TicketTransferenciaBean:83 - Realizando conexión a la base de datos...
+2021-09-15 20:50:16 INFO  TicketTransferenciaBean:85 - La conexión a la base de datos es correcta.
+2021-09-15 20:50:16 INFO  TicketTransferenciaBean:91 - Validar la información de log_agent...
+2021-09-15 20:50:29 ERROR TicketTransferenciaBean:136 - Se proujo un error al intentar procesar la transferencia
+com.sun.xml.internal.ws.client.ClientTransportException: Error de transporte HTTP: java.net.ConnectException: Connection refused: connect
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:117)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.process(HttpTransportPipe.java:208)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.processRequest(HttpTransportPipe.java:130)
+	at com.sun.xml.internal.ws.transport.DeferredTransportPipe.processRequest(DeferredTransportPipe.java:95)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.client.Stub.process(Stub.java:448)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.doProcess(SEIStub.java:178)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:93)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy31.login(Unknown Source)
+	at mx.com.syntech.totalplay.servicedesk.salesforce.integracion.ticket.transferencia.TicketTransferenciaBean.login(TicketTransferenciaBean.java:185)
+	at mx.com.syntech.totalplay.servicedesk.salesforce.integracion.ticket.transferencia.TicketTransferenciaBean.procesar(TicketTransferenciaBean.java:99)
+	at mx.com.syntech.totalplay.servicedesk.salesforce.integracion.main.PrincipalBean.main(PrincipalBean.java:39)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315)
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:104)
+	... 16 more
+2021-09-15 20:50:31 INFO  TicketTransferenciaBean:149 - Intentando cerrar la conexión a la base de datos...
+2021-09-15 20:50:32 INFO  TicketTransferenciaBean:151 - Se cerro loa conexión a la base de datos satisfactoriamente.
